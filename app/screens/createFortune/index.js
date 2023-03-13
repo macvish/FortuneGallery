@@ -1,10 +1,10 @@
 import React from 'react'
 import { Flex, Text } from '../../shared/components'
 
-export const CreatePage = () => {
+export const CreateFortune = () => {
   return (
     <Flex>
-      <Text>Create Page</Text>
+      <Text>Create Fortune</Text>
     </Flex>
   )
 }

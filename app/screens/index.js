@@ -1,3 +1,3 @@
-export { CreatePage } from './createPage'
+export { CreateFortune } from './createFortune'
 export { Home } from './home'
-export { ViewPage } from './viewPage'
+export { ViewFortune } from './viewFortune'

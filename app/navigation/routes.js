@@ -1,4 +1,4 @@
-import { CreatePage, Home, ViewPage } from "../screens"
+import { CreateFortune, Home, ViewFortune } from "../screens"
 import GenerateTab from "./generateTab"
 import { routeUrls } from "./routeUrls"
 
@@ -8,17 +8,20 @@ const MainTabs = () => (
       {
         name: routeUrls.home,
         icon: 'home',
+        label: 'Home',
         component: Home,
       },
       {
         name: routeUrls.view,
         icon: 'view',
-        component: ViewPage,
+        label: 'View Fortune',
+        component: ViewFortune,
       },
       {
         name: routeUrls.create,
         icon: 'create',
-        component: CreatePage,
+        label: 'Create Fortune',
+        component: CreateFortune,
       },
     ]}
   />

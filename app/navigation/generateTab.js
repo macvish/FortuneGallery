@@ -13,6 +13,7 @@ const GenerateTab = ({paths}) => {
         key={index}
         component={component}
         options={{
+          headerShown: false,
           unmountOnBlur: true,
           tabBarIcon: ({focused, size}) => (
             <>
@@ -33,7 +34,7 @@ const GenerateTab = ({paths}) => {
 
   return (
     <>
-      <Tab.Navigator>
+      <Tab.Navigator screenOptions={{ tabBarShowLabel: false, }}>
         {paths.map((item, index) => {
           return renderTab(item, index);
         })}

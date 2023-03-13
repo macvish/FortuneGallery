@@ -1,6 +1,6 @@
 export const routeUrls = {
-  create: 'CreatePage',
+  create: 'CreateFortune',
   home: 'Home',
   mainTabs: 'MainTabs',
-  view: 'ViewPage',
+  view: 'ViewFortune',
 }

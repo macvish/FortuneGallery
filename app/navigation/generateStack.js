@@ -4,13 +4,14 @@ import { createStackNavigator } from '@react-navigation/stack'
 const Stack = createStackNavigator()
 
 const GenerateStack = ({paths}) => {
-  const renderScreen = ({ name, component }, index) => {
+  const renderScreen = ({ name, component, options }, index) => {
     return (
       <Stack.Screen
         name={name}
         key={index}
         options={() => ({
           title: '',
+          ...options
         })}
         component={component}
       />

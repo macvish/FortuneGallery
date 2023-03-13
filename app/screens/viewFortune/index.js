@@ -1,10 +1,10 @@
 import React from 'react'
 import { Flex, Text } from '../../shared/components'
 
-export const ViewPage = () => {
+export const ViewFortune = () => {
   return (
     <Flex>
-      <Text>View Page</Text>
+      <Text>View Fortune</Text>
     </Flex>
   )
 }

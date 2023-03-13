@@ -1,7 +1,7 @@
 import React from 'react'
 import { View } from 'react-native'
 
-export const Flex = observer(({ 
+export const Flex = ({ 
   children, 
   direction, 
   align, 
@@ -26,4 +26,4 @@ export const Flex = observer(({
       {children}
     </View>
   )
-})
+}
