@@ -6,8 +6,7 @@ import { Flex, Text } from '../../shared/components'
 import { routeUrls } from '../../navigation/routeUrls'
 import { metrics } from '../../shared/util/metrics'
 
-const db = openDatabase(
-  {name: 'FortuneDB.db', location: 'default'}, 
+const db = openDatabase({name: 'FortuneDB.db', location: 'default'}, 
   () => {}, 
   (err) => console.log(err)
 )
@@ -69,6 +68,7 @@ export const CreateFortune = ({ navigation }) => {
         multiline
         style={styles.input}
         onChangeText={setFortune}
+        testID='input'
       />
       {renderDoneButton()}
     </Flex>
