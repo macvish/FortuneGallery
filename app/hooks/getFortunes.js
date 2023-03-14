@@ -8,7 +8,7 @@ const db = openDatabase(
 )
 
 export const getFortunes = () => {
-  const [fortunes, setFortunes] = useState()
+  const [fortunes, setFortunes] = useState([])
 
   const getData = () => {
     db.transaction((tx) => {

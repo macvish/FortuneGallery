@@ -34,7 +34,7 @@ const GenerateTab = ({paths}) => {
 
   return (
     <>
-      <Tab.Navigator screenOptions={{ tabBarShowLabel: false, }}>
+      <Tab.Navigator screenOptions={{ tabBarShowLabel: false, unmountOnBlur: true }}>
         {paths.map((item, index) => {
           return renderTab(item, index);
         })}

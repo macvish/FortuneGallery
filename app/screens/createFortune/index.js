@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Alert, Pressable, StyleSheet, TextInput } from 'react-native'
+import { Alert, Platform, Pressable, StyleSheet, TextInput } from 'react-native'
 import { openDatabase } from 'react-native-sqlite-storage'
 
 import { Flex, Text } from '../../shared/components'
@@ -81,10 +81,11 @@ const styles = StyleSheet.create({
   },
   input: {
     height: metrics.height * 0.6,
-    marginTop: 50,
+    marginTop: Platform.OS === 'ios' ? 50 : 0,
     marginBottom: 20,
     fontSize: 25,
-    fontWeight: '600'
+    fontWeight: '600',
+    textAlignVertical: 'top'
   },
   doneBtn: {
     backgroundColor: '#000000', 
