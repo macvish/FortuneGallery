@@ -5335,6 +5335,11 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.6"
 
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5906,6 +5911,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-native-basic-carousel@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-native-basic-carousel/-/react-native-basic-carousel-1.0.9.tgz#79b72401650119ee376ce1d9612afd9ee450f07f"
+  integrity sha512-Yc3AvuDXcLsM4eE0WbCLCNN6/Vxmlfpci492UYdD+jTzfABtq7P1kInTILz7gbXMu723ryPe7YLSHdcz8YRd5A==
 
 react-native-codegen@^0.71.5:
   version "0.71.5"

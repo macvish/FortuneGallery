@@ -1,0 +1,1 @@
+export { getFortunes } from './getFortunes'
